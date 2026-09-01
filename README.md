@@ -202,7 +202,7 @@ The very first upload after a full flash erase may still need one manual **BOOT 
 2. Windows: Device Manager → **Sound, video and game controllers** (not **Ports COM & LPT**)
 3. Sonic Pi: Preferences → I/O → enable **Mukta MIDI Twist** as input/output
 4. Send notes **45–47** for onboard RGB, **48–59** for strip pixels (channel **1** by default)
-5. Example test pattern: [`sonicpi/sonic-pi-01-led-test.txt`](sonicpi/sonic-pi-01-led-test.txt) — see [`sonicpi/README.md`](sonicpi/README.md)
+5. Examples: [`sonicpi/`](sonicpi/) — LED test and drum track with encoder control (see [`sonicpi/README.md`](sonicpi/README.md))
 
 ---
 
@@ -284,9 +284,10 @@ mukta-midi-twist/
 ├── logo/
 │   ├── README.md              # logo copyright & usage
 │   └── mukta-midi-twist.png   # project logo (shown in README)
-├── sonicpi/                   # Sonic Pi test scripts (see sonicpi/README.md)
+├── sonicpi/                   # Sonic Pi scripts (see sonicpi/README.md)
 │   ├── README.md
-│   └── sonic-pi-01-led-test.txt
+│   ├── sonic-pi-01-led-test.rb    # LED visual test
+│   └── sonic-pi-02-drum-track.rb  # drum track + bidirectional MIDI
 ├── config.h              # GPIOs + MIDI / LED maps
 ├── mukta-midi-twist.ino
 ├── platform.local.txt    # Copy to esp32 core (watchdog reset after upload)
