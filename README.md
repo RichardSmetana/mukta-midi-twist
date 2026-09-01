@@ -1,5 +1,7 @@
 <p align="center">
   <img src="logo/mukta-midi-twist.png" alt="Mukta MIDI Twist logo" width="360">
+  <br>
+  <sub>© 2026 Richard Smetana · Logo generated with ChatGPT</sub>
 </p>
 
 # Mukta MIDI Twist
@@ -280,6 +282,7 @@ USB init (ESP32-S3): `usbMidi.begin()` → `USB.begin()` once in `setup()` — r
 ```
 mukta-midi-twist/
 ├── logo/
+│   ├── README.md              # logo copyright & usage
 │   └── mukta-midi-twist.png   # project logo (shown in README)
 ├── sonicpi/                   # Sonic Pi test scripts (see sonicpi/README.md)
 │   ├── README.md
@@ -299,7 +302,9 @@ mukta-midi-twist/
 
 ## License
 
-GNU General Public License v3.0 — see [LICENSE](LICENSE).
+Firmware source code: **GNU General Public License v3.0** — see [LICENSE](LICENSE).
+
+Project logo: **© 2026 Richard Smetana** (generated with ChatGPT) — see [logo/README.md](logo/README.md).
 
 ## Contributing
 
