@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo/mukta-midi-twist.png" alt="Mukta MIDI Twist logo" width="360">
+</p>
+
 # Mukta MIDI Twist
 
 Arduino MIDI controller firmware for **four KY-040** rotary encoders with push buttons, plus **RGB LED feedback** (onboard WS2812 on GPIO 48 + external strip on GPIO 7) driven by incoming MIDI Note On / Note Off.
@@ -196,6 +200,7 @@ The very first upload after a full flash erase may still need one manual **BOOT 
 2. Windows: Device Manager → **Sound, video and game controllers** (not **Ports COM & LPT**)
 3. Sonic Pi: Preferences → I/O → enable **Mukta MIDI Twist** as input/output
 4. Send notes **45–47** for onboard RGB, **48–59** for strip pixels (channel **1** by default)
+5. Example test pattern: [`sonicpi/sonic-pi-01-led-test.txt`](sonicpi/sonic-pi-01-led-test.txt) — see [`sonicpi/README.md`](sonicpi/README.md)
 
 ---
 
@@ -274,6 +279,11 @@ USB init (ESP32-S3): `usbMidi.begin()` → `USB.begin()` once in `setup()` — r
 
 ```
 mukta-midi-twist/
+├── logo/
+│   └── mukta-midi-twist.png   # project logo (shown in README)
+├── sonicpi/                   # Sonic Pi test scripts (see sonicpi/README.md)
+│   ├── README.md
+│   └── sonic-pi-01-led-test.txt
 ├── config.h              # GPIOs + MIDI / LED maps
 ├── mukta-midi-twist.ino
 ├── platform.local.txt    # Copy to esp32 core (watchdog reset after upload)
