@@ -1,0 +1,8 @@
+# ESP32-S3: auto-start app after USB-JTAG upload.
+# Install once — copy this file to:
+#   %LOCALAPPDATA%\Arduino15\packages\esp32\hardware\esp32\3.3.11\platform.local.txt
+# Then restart the Arduino IDE.
+#
+# Do NOT use boards.local.txt with --after here (extra_flags append after filenames).
+# See: https://github.com/espressif/esp-idf/issues/13287
+tools.esptool_py.upload.pattern_args=--chip {build.mcu} --port "{serial.port}" --baud {upload.speed} {upload.flags} --before default-reset --after watchdog-reset write-flash {upload.erase_cmd} -z --flash-mode keep --flash-freq keep --flash-size keep {build.bootloader_addr} "{build.path}/{build.project_name}.bootloader.bin" 0x8000 "{build.path}/{build.project_name}.partitions.bin" 0xe000 "{runtime.platform.path}/tools/partitions/boot_app0.bin" 0x10000 "{build.path}/{build.project_name}.bin" {upload.extra_flags}
