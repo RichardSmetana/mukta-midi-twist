@@ -55,7 +55,7 @@ Zielboard: **YD-ESP32-S3** (VCC-GND Studio) oder jedes **ESP32S3 Dev Module** mi
 ### Schaltplan / Verdrahtung (aktuelles `config.h`)
 
 <p align="center">
-  <img src="image/mukta-midi-twist-schaltplan.png" alt="Mukta MIDI Twist Schaltplan" width="720">
+  <img src="image/mukta-midi-twist-schaltplan.png" alt="Mukta MIDI Twist wiring diagram" width="720">
 </p>
 
 | Signal | Enc 0 | Enc 1 | Enc 2 | Enc 3 |
