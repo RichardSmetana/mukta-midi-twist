@@ -1,5 +1,6 @@
 /*
  * Mukta MIDI Twist — Arduino KY-040 MIDI controller firmware
+ * Version: 0.2.0-dev (see VERSION / CHANGELOG.md)
  * SPDX-License-Identifier: GPL-3.0-or-later
  * Copyright (C) 2026 Richard Smetana
  *

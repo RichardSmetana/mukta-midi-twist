@@ -16,6 +16,13 @@ Thanks for your interest in improving this project.
 3. Test on real hardware when possible (encoder direction, CC range, note on/off, no stuck notes).
 4. Open a pull request with a short description of **what** changed and **why**.
 5. Update [README.md](README.md) and [README.de.md](README.de.md) when pins, MIDI maps, or setup steps change.
+6. Note user-facing changes under **[Unreleased]** in [CHANGELOG.md](CHANGELOG.md).
+
+## Releases / versioning
+
+- Current development target: **0.2.0** (branch `develop`, version file [`VERSION`](VERSION) = `0.2.0-dev`).
+- Stable releases live on `main` and are tagged `vX.Y.Z` (e.g. [`v0.1.0`](https://github.com/RichardSmetana/mukta-midi-twist/releases/tag/v0.1.0)).
+- Before merging a release to `main`: move Unreleased notes into a dated `[X.Y.Z]` section, set `VERSION` to `X.Y.Z`, then tag and publish a GitHub Release.
 
 ## Development tips
 

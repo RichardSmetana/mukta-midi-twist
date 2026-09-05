@@ -7,9 +7,37 @@ and this project aims to follow [Semantic Versioning](https://semver.org/spec/v2
 
 ## [Unreleased]
 
+Development toward **0.2.0** (see branch `develop`). Version string in [`VERSION`](VERSION): `0.2.0-dev`.
+
 ### Planned
 
-- Nothing listed yet.
+- Full firmware / hardware rewrite (breaking changes expected)
+- Update wiring docs, GPIO map, and Sonic Pi examples to match new hardware
+- Keep GPL-3.0-or-later licensing
+
+### Added
+
+- *(fill in during development)*
+
+### Changed
+
+- *(fill in during development)*
+
+### Fixed
+
+- *(fill in during development)*
+
+### Removed
+
+- *(fill in during development)*
+
+<!--
+When releasing 0.2.0:
+1. Move Unreleased notes into ## [0.2.0] - YYYY-MM-DD
+2. Set VERSION to 0.2.0
+3. Tag v0.2.0 on main after merge
+4. Create GitHub Release from CHANGELOG notes
+-->
 
 ## [0.1.0] - 2026-09-05
 

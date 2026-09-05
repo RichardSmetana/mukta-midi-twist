@@ -314,7 +314,8 @@ mukta-midi-twist/
 ├── button.cpp / .h
 ├── README.md             # Englisch
 ├── README.de.md          # Deutsch (diese Datei)
-└── CHANGELOG.md          # Versionshistorie
+├── CHANGELOG.md          # Versionshistorie
+└── VERSION               # aktuelle Versionszeichenkette (z. B. 0.2.0-dev)
 ```
 
 ---
@@ -329,4 +330,4 @@ Das Projektlogo wurde mit ChatGPT erzeugt; es unterliegt denselben GPL-3.0-or-la
 
 ## Mitwirken
 
-Siehe [CONTRIBUTING.md](CONTRIBUTING.md). Versionshistorie: [CHANGELOG.md](CHANGELOG.md).
+Siehe [CONTRIBUTING.md](CONTRIBUTING.md). Versionshistorie: [CHANGELOG.md](CHANGELOG.md). Entwicklung für **0.2.0** auf Branch `develop`.
