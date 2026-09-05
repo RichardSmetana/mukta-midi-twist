@@ -313,7 +313,8 @@ mukta-midi-twist/
 ├── encoder.cpp / .h
 ├── button.cpp / .h
 ├── README.md             # English (this file)
-└── README.de.md          # German translation
+├── README.de.md          # German translation
+└── CHANGELOG.md          # release history
 ```
 
 ---
@@ -328,4 +329,4 @@ The project logo was generated with ChatGPT; it is included under the same GPL-3
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md). Release notes: [CHANGELOG.md](CHANGELOG.md).
