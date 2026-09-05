@@ -67,7 +67,7 @@ Full performance piece with **bidirectional MIDI**.
 | Bars | Section |
 |------|---------|
 | 0–3 | Intro |
-| 4–11 | Grundgroove |
+| 4–11 | Main groove |
 | 12–19 | Tribal |
 | 20–23 | Break |
 | 24–31 | Finale |

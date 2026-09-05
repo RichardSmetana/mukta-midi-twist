@@ -1,12 +1,12 @@
 /*
- * midictrl — Arduino KY-040 MIDI controller firmware
- * Copyright (C) 2026 midictrl contributors
+ * Mukta MIDI Twist — Arduino KY-040 MIDI controller firmware
+ * Copyright (C) 2026 Richard Smetana
  *
  * Edit config.h for GPIOs and MIDI mapping.
  *
- * ESP32-S3 (Werkzeuge / Tools):
+ * ESP32-S3 (Arduino IDE → Tools):
  *   USB Mode:        USB-OTG (TinyUSB)
- *   USB CDC On Boot: Disabled   ← wichtig für MIDI unter Windows/Sonic Pi
+ *   USB CDC On Boot: Disabled   ← required for MIDI on Windows / Sonic Pi
  *   Upload Mode:     USB-OTG CDC (TinyUSB)
  * GPIO (config.h): Enc0 42/41/40 · Enc1 39/38/37 · Enc2 4/5/6 · Enc3 15/16/17 · Strip 7
  * Upload: BOOT 2 s → USB JTAG port. Details: README.md

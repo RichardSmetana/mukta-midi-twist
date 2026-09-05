@@ -8,11 +8,11 @@
 // Arduino IDE → Tools:
 //   Board:           ESP32S3 Dev Module
 //   USB Mode:        USB-OTG (TinyUSB)
-//   USB CDC On Boot: Disabled  (reines USB-MIDI — funktioniert unter Windows/Sonic Pi)
+//   USB CDC On Boot: Disabled  (pure USB MIDI — works on Windows / Sonic Pi)
 //   Upload Mode:     USB-OTG CDC (TinyUSB)
-// Upload: BOOT (GPIO 0) 2 s halten, dann Upload in der IDE. USB danach ab-/anstecken.
-// Auto-Start nach Upload: platform.local.txt ins esp32-Paket (siehe README).
-// Sonic Pi: "Mukta MIDI Twist" (Sound/Audio-Geräte, nicht COM-Port).
+// Upload: hold BOOT (GPIO 0) 2 s, then Upload in the IDE. Unplug/replug USB after.
+// Auto-start after upload: copy platform.local.txt into the esp32 package (see README).
+// Sonic Pi: "Mukta MIDI Twist" (Sound/audio devices, not COM port).
 // -----------------------------------------------------------------------------
 const unsigned long SERIAL_BAUD = 115200;
 

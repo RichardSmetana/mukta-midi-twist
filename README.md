@@ -6,6 +6,8 @@
 
 # Mukta MIDI Twist
 
+[Deutsche README](README.de.md)
+
 Arduino MIDI controller firmware for **four KY-040** rotary encoders with push buttons, plus **RGB LED feedback** (onboard WS2812 on GPIO 48 + external strip on GPIO 7) driven by incoming MIDI Note On / Note Off.
 
 On **ESP32-S3**, MIDI runs over **native USB** (class-compliant USB MIDI device **“Mukta MIDI Twist”**). No serial↔MIDI bridge and no cable swapping for MIDI.
@@ -44,7 +46,17 @@ Target board: **YD-ESP32-S3** (VCC-GND Studio) or any **ESP32S3 Dev Module** wit
 | **USB-OTG** | Open (device mode via firmware) |
 | **IN-OUT** | Open (5 V pin = power input only) |
 
-### GPIO wiring (current `config.h`)
+### Breadboard prototype
+
+<p align="center">
+  <img src="image/breadboard-prototype.jpeg" alt="Mukta MIDI Twist breadboard prototype" width="720">
+</p>
+
+### Wiring diagram (current `config.h`)
+
+<p align="center">
+  <img src="image/mukta-midi-twist-schaltplan.png" alt="Mukta MIDI Twist wiring diagram" width="720">
+</p>
 
 | Signal | Enc 0 | Enc 1 | Enc 2 | Enc 3 |
 |--------|-------|-------|-------|-------|
@@ -98,8 +110,8 @@ Open the folder `mukta-midi-twist` — the sketch name must match the folder nam
 
 Set **every** value below before compiling or uploading:
 
-| Tool (Werkzeug) | Setting | Why |
-|-----------------|---------|-----|
+| Tool | Setting | Why |
+|------|---------|-----|
 | **Board** | **ESP32S3 Dev Module** | ESP32-S3 target |
 | **USB Mode** | **USB-OTG (TinyUSB)** | Native USB MIDI (`ARDUINO_USB_MODE=0`) |
 | **USB CDC On Boot** | **Disabled** | Pure MIDI device; **Enabled** breaks MIDI on Windows |
@@ -284,6 +296,9 @@ mukta-midi-twist/
 ├── logo/
 │   ├── README.md              # logo copyright & usage
 │   └── mukta-midi-twist.png   # project logo (shown in README)
+├── image/
+│   ├── breadboard-prototype.jpeg       # breadboard photo
+│   └── mukta-midi-twist-schaltplan.png # wiring diagram
 ├── sonicpi/                   # Sonic Pi scripts (see sonicpi/README.md)
 │   ├── README.md
 │   ├── sonic-pi-01-led-test.rb    # LED visual test
@@ -296,7 +311,8 @@ mukta-midi-twist/
 ├── leds.cpp / leds.h     # Onboard + strip
 ├── encoder.cpp / .h
 ├── button.cpp / .h
-└── README.md
+├── README.md             # English (this file)
+└── README.de.md          # German translation
 ```
 
 ---

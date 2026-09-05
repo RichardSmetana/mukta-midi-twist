@@ -26,7 +26,7 @@
 #   Notes 47 + ring value     → strip colours (see led1 / led2 rings)
 #
 # Arrangement (bars):
-#   0–3   Intro · 4–11 Grundgroove · 12–19 Tribal · 20–23 Break · 24–31 Finale
+#   0–3   Intro · 4–11 Main groove · 12–19 Tribal · 20–23 Break · 24–31 Finale
 # =============================================================================
 
 use_debug false
