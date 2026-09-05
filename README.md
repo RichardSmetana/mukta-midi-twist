@@ -294,9 +294,10 @@ USB init (ESP32-S3): `usbMidi.begin()` → `USB.begin()` once in `setup()` — r
 ```
 mukta-midi-twist/
 ├── logo/
-│   ├── README.md              # logo copyright & usage
+│   ├── README.md              # logo copyright & GPL notice
 │   └── mukta-midi-twist.png   # project logo (shown in README)
 ├── image/
+│   ├── README.md                       # image GPL notice
 │   ├── breadboard-prototype.jpeg       # breadboard photo
 │   └── mukta-midi-twist-schaltplan.png # wiring diagram
 ├── sonicpi/                   # Sonic Pi scripts (see sonicpi/README.md)
@@ -319,9 +320,11 @@ mukta-midi-twist/
 
 ## License
 
-Firmware source code: **GNU General Public License v3.0** — see [LICENSE](LICENSE).
+This project (firmware, documentation, Sonic Pi examples, logo, and images) is licensed under the **GNU General Public License v3.0 or later** — see [LICENSE](LICENSE).
 
-Project logo: **© 2026 Richard Smetana** (generated with ChatGPT) — see [logo/README.md](logo/README.md).
+Copyright (C) 2026 Richard Smetana.
+
+The project logo was generated with ChatGPT; it is included under the same GPL-3.0-or-later terms (see [logo/README.md](logo/README.md)).
 
 ## Contributing
 

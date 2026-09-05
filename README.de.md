@@ -294,11 +294,12 @@ USB-Init (ESP32-S3): `usbMidi.begin()` → `USB.begin()` einmal in `setup()` —
 ```
 mukta-midi-twist/
 ├── logo/
-│   ├── README.md              # Logo-Copyright & Nutzung
+│   ├── README.md              # Logo-Copyright & GPL-Hinweis
 │   └── mukta-midi-twist.png   # Projektlogo (in README)
 ├── image/
+│   ├── README.md                       # Bild-GPL-Hinweis
 │   ├── breadboard-prototype.jpeg       # Breadboard-Foto
-│   └── mukta-midi-twist-schaltplan.png # Schaltplan
+│   └── mukta-midi-twist-schaltplan.png # Schaltplan / Wiring Diagram
 ├── sonicpi/                   # Sonic-Pi-Skripte (siehe sonicpi/README.md)
 │   ├── README.md
 │   ├── sonic-pi-01-led-test.rb    # LED-Sichttest
@@ -319,9 +320,11 @@ mukta-midi-twist/
 
 ## Lizenz
 
-Firmware-Quellcode: **GNU General Public License v3.0** — siehe [LICENSE](LICENSE).
+Dieses Projekt (Firmware, Dokumentation, Sonic-Pi-Beispiele, Logo und Bilder) steht unter der **GNU General Public License v3.0 oder neuer** — siehe [LICENSE](LICENSE).
 
-Projektlogo: **© 2026 Richard Smetana** (generiert mit ChatGPT) — siehe [logo/README.md](logo/README.md).
+Copyright (C) 2026 Richard Smetana.
+
+Das Projektlogo wurde mit ChatGPT erzeugt; es unterliegt denselben GPL-3.0-or-later-Bedingungen (siehe [logo/README.md](logo/README.md)).
 
 ## Mitwirken
 

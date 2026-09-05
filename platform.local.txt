@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Richard Smetana
+
 # ESP32-S3: auto-start app after USB-JTAG upload.
 # Install once — copy this file to:
 #   %LOCALAPPDATA%\Arduino15\packages\esp32\hardware\esp32\3.3.11\platform.local.txt

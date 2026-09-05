@@ -4,12 +4,12 @@
 |------|-------------|
 | `mukta-midi-twist.png` | Project logo (shown in the main [README](../README.md)) |
 
-## Copyright
+## Copyright and license
 
-**© 2026 Richard Smetana.** All rights reserved.
+**Copyright (C) 2026 Richard Smetana**
 
 The logo was created by Richard Smetana using [ChatGPT](https://chatgpt.com/) (OpenAI).
 
-You may use this image when referring to or distributing the **Mukta MIDI Twist** project (e.g. in README files, documentation, or social posts about this repository). Other uses require permission from the copyright holder.
+This work is free software / free cultural work: you can redistribute it and/or modify it under the terms of the **GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version**.
 
-The logo is **not** licensed under the GNU GPL v3.0 that applies to the firmware source code — see [LICENSE](../LICENSE).
+See [LICENSE](../LICENSE) or <https://www.gnu.org/licenses/>.

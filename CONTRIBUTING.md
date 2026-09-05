@@ -7,7 +7,7 @@ Thanks for your interest in improving this project.
 - Keep changes focused and easy to review.
 - Match the existing code style in `mukta-midi-twist.ino` (clear names, short ISRs, MIDI only from `loop()`).
 - Do not commit build artifacts, IDE caches, or secrets.
-- By contributing, you agree that your contributions are licensed under the **GNU GPL v3.0** (see [LICENSE](LICENSE)).
+- By contributing, you agree that your contributions are licensed under the **GNU GPL v3.0 or later** (see [LICENSE](LICENSE)).
 
 ## How to contribute
 

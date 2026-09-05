@@ -139,4 +139,4 @@ Velocity sets brightness (0.0–1.0 in Sonic Pi → 0–127 on the device).
 
 Add new `.rb` files in this folder with a header comment block and a row in the table above.
 
-Scripts in this folder are part of the Mukta MIDI Twist project and licensed under **GNU GPL v3.0** (see [LICENSE](../LICENSE)).
+Scripts in this folder are part of the Mukta MIDI Twist project and licensed under **GNU GPL v3.0 or later** (see [LICENSE](../LICENSE)).

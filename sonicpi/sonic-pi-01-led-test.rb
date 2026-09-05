@@ -1,4 +1,6 @@
 # sonic-pi-01-led-test.rb
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Richard Smetana
 # =============================================================================
 # Mukta MIDI Twist — LED visual test
 # =============================================================================
